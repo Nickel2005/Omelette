@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "outfit";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "young serif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+li{margin-bottom: 12px;}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    padding: 40px;
+    color:hsl(24, 5%, 18%)
+
+;
+}
+.container{
+    background-color: white;
+    padding: 32px;
+    min-height: 80vh;
+    max-width: 720px;
+    margin:auto;    
+    border-radius: 16px;
+}
+.banner-image{
+    width: 100%;
+    border-radius: 8px;
+}
+.hero-heading{
+    font-family:young serif;
+font-weight: 400;
+margin-top: 16px;
+}
+.hero-text{
+    font-family: outfit;
+    font-size: 16px;
+}
+.preparation ul li span{
+     font-weight: 600;
+
+    
+     
+     
+}
+.box{
+    background-color: hsl(330, 100%, 98%);
+    padding-left: 24px;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+ .preparation ul{
+    padding: 8px;
+    list-style: inside;
+    list-style-type: ;
+}
+ .preparation h4{
+    color:hsl(332, 51%, 32%);
+    margin-bottom: 16px;
+    font-size: 20px;
+    padding-top: 16px;
+    
+}
+ .preparation li{
+    margin-bottom: 12px;
+}
+.preparation ul li::marker {
+    color:hsl(332, 51%, 32%)
+}
+.ingridient h2{
+    color: hsl(14, 45%, 36%) ;
+    font-size: 32px;
+    font-family: 'young serif';
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.ingridient{
+    color: hsl(14, 45%, 36%);
+}
+.ingridient li{
+    margin-bottom: 8px;
+    list-style: inside;
+}
+.line{
+    margin-top: 20px;
+}
+.instruction{
+    margin-bottom: ;
+}
+.instruction h2 {
+    color:hsl(14, 45%, 36%) ;
+    font-size: 32px;
+    font-family: 'young serif';
+    font-weight: 500;
+    margin-bottom: 16px;
+    margin-top: 24px;
+
+}
+.instruction ol li span { 
+    font-weight: 600;
+
+}
+
+.instruction ol ::marker{color:hsl(14, 45%, 36%);
+font-weight: 900;;}
+.instruction ol{
+    padding-left: 20px;
+}
+.bottom-line{
+    margin-top: 24px;
+}
+.Nutrition h2 {
+    color:hsl(14, 45%, 36%);
+    font-size: 32px;
+    font-family:'young serif';
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.to{
+    padding-left: 400px;
+    
+
+}
+
